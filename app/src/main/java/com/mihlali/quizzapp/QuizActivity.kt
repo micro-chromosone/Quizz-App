@@ -30,19 +30,19 @@ class QuizActivity : AppCompatActivity() {
 
         //creating array with 5 questions
         val HistoryQuestions = arrayOf(
-            "Who was the first black president of South Africa?",
-            "When did Apartheid End in South Africa?",
-            "What law Geographically separated South Africans based on Race",
-            "Who here was once the president of South Africa?",
-            "How Long did Apartheid last in South Africa?"
+            "Nelson Mandela was the first black president of South Africa?",
+            "Apartheid Ended in the early 1990s in South Africa?",
+            "The Group Areas Act is what Geographically separated South Africans based on Race",
+            "leon Schuster was once the president of South Africa?",
+            "Apartheid lasted 50 Years"
 
         )
         val HistoryAnswers = arrayOf(
-            arrayOf("A: Thabo Mbeki", "B:Jacob Zuma", "C:Nelson Mandela"),
-            arrayOf("A: Early 1980s", "B: Early 1990s", "C: Early 2000s"),
-            arrayOf("A: Group Areas Act", "B: Law of separation", "C: Population Registration Act"),
-            arrayOf("A: Leon Schuster", "B: Shaka Zulu", "C: Jacob Zuma"),
-            arrayOf("A: 46 Years", "B: 50 Years", "C: 55 Years")
+            arrayOf("A: False", "B: Skip", "C:True"),
+            arrayOf("A: False", "B: True", "C: Skip"),
+            arrayOf("A: True", "B: Skip", "C: False"),
+            arrayOf("A: True", "B: Skip", "C: False"),
+            arrayOf("A: False", "B: True", "C: Skip")
         )
 
         val correctAnswers = arrayOf(
