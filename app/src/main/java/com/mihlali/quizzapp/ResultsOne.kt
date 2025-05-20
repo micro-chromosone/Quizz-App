@@ -27,12 +27,15 @@ class ResultsOne : AppCompatActivity() {
         val username = intent.getStringExtra("username")
         //dsplay the score and username in the textView
         //corrected variable name
-        Tvscore.text = "$score"
+        if (score< 3) {
+        Tvscore.text = "Keep Practicing!,$score"} else {
+            Tvscore.text = "Great Job!,$score"
+        }
         btnFinish.setOnClickListener {
             finish()
         }
+        }
     }//code starts here
 
-}
 
 
