@@ -28,8 +28,8 @@ class ResultsOne : AppCompatActivity() {
         //dsplay the score and username in the textView
         //corrected variable name
         if (score< 3) {
-        Tvscore.text = "Keep Practicing!,$score"} else {
-            Tvscore.text = "Great Job!,$score"
+        Tvscore.text = "Keep Practicing!, Your core is, $score"} else {
+            Tvscore.text = "Great Job! Your score is, $score"
         }
         btnFinish.setOnClickListener {
             finish()
