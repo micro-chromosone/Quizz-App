@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
             insets
         }
         // code starts here
-        val edtusername = findViewById<EditText>(R.id.edtuserName)
+        val edtusername = findViewById<EditText>(R.id.edtUser)
         val btnStart = findViewById<Button>(R.id.btnStartCards)
 
         btnStart.setOnClickListener {
