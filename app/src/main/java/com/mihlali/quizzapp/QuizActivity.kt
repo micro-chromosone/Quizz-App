@@ -38,19 +38,19 @@ class QuizActivity : AppCompatActivity() {
 
         )
         val HistoryAnswers = arrayOf(
-            arrayOf("A: False", "B: Skip", "C:True"),
-            arrayOf("A: False", "B: True", "C: Skip"),
-            arrayOf("A: True", "B: Skip", "C: False"),
-            arrayOf("A: True", "B: Skip", "C: False"),
-            arrayOf("A: False", "B: True", "C: Skip")
+            arrayOf("True", "False", "Skip"),
+            arrayOf("True", "False", "Skip"),
+            arrayOf("True", "False", "Skip"),
+            arrayOf("True", "False", "Skip"),
+            arrayOf("True", "False", "Skip")
         )
 
         val correctAnswers = arrayOf(
-            "C",
-            "B",
-            "A",
-            "C",
-            "A"
+            "True",
+            "True",
+            "True",
+            "False",
+            "False"
         )
         var useranswers = arrayOfNulls<String>(5)
 
